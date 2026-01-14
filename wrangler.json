@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "019a8954-6e7f-714d-ae4c-71bbf0599ace",
+  "name": "planmaestro",
   "main": "./src/worker/index.ts",
   "compatibility_date": "2025-06-17",
   "compatibility_flags": ["nodejs_compat"],
@@ -14,8 +14,8 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "019a8954-6e7f-714d-ae4c-71bbf0599ace",
-      "database_id": "019a8954-6e7f-714d-ae4c-71bbf0599ace"
+      "database_name": "planmaestro-db",
+      "database_id": "febe789d-7d56-4218-86ad-1ec5a4fd0aa7"
     }
   ],
   "r2_buckets": [
