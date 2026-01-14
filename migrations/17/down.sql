@@ -1,0 +1,3 @@
+
+DROP INDEX idx_email_verification_webhooks_correo;
+DROP TABLE email_verification_webhooks;

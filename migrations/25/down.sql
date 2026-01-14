@@ -1,0 +1,10 @@
+
+CREATE TABLE edit_planning_webhooks (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+correo TEXT NOT NULL,
+section_name TEXT NOT NULL,
+instruction TEXT NOT NULL,
+payload_data TEXT NOT NULL,
+created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
